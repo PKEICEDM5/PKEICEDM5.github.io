@@ -1,6 +1,501 @@
-<html>
-<header><title>This is title</title></header>
-<body>
-Hello world
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:title" content="Pokemon Insurgence">
+    <meta property="og:description"
+        content="Pokemon Insurgence is a fangame for the Pokemon series based in a brand new region with fun mechanics such as, Delta Pokemon, Armored Pokemon, Secret Bases, Online Trading, Character customization and so much more.">
+    <meta property="og:image" content="assets/img/banner.png">
+    <meta property="og:url" content="https://p-insurgence.com">
+    <title>Pokemon Insurgence</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/scripts/vegas/jquery.vegas.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+
+<body data-spy="scroll" data-target="#navigator" data-offset="20">>
+    <!-- Navigation -->
+    <!-- The video -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navigator">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://p-insurgence.com">
+                    <img class="logo" src="assets/img/logo.png" />
+                </a>
+            </div>
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a>
+                    </li>
+                    <li><a href="#about">Features</a>
+                    </li>
+                    <li><a href="#downloads">Downloads</a>
+                    </li>
+                    <li><a href="#community">Community</a>
+                    </li>
+                    <li>
+                        <a href="#ban-appeals">Discord Ban Appeal</a>
+                    </li>
+                    <li>
+                        <a href="#developers">Developers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container" id="home">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <img src="assets/img/logo2.png" id="headerimg" />
+                <h2 class="head-sub-main">A Brand New Pokemon Adventure Based in the Torren Region! </h2>
+                <h3 class="head-sub-desc"> Pokemon Insurgence is a fangame for the Pokemon series based in a brand new
+                    region with fun mechanics such as, Delta Pokemon, Armored Pokemon, Secret Bases, Online Trading,
+                    Character customization and so much more!</h3>
+                <div class="mainItem">
+                    <a href="#developers">
+                        <image src="assets/img/team_icon.png" class="buttonImg">
+                    </a>
+                    <span class="caption">Developers</span>
+                </div>
+                <div class="mainItem">
+                    <a href="https://discord.p-insurgence.com/">
+                        <image src="assets/img/discord_icon.png" class="buttonImg">
+                    </a>
+                    <span class="caption">Discord</span>
+                </div>
+                <div class="mainItem">
+                    <a href="#downloads">
+                        <image src="assets/img/download_icon.png" class="downloadImg">
+                    </a>
+                    <span class="caption">Download</span>
+                </div>
+                <div class="mainItem">
+                    <a href="https://wiki.p-insurgence.com">
+                        <image src="assets/img/info_icon.png" class="buttonImg">
+                    </a>
+                    <span class="caption">Wiki</span>
+                </div>
+                <div class="mainItem">
+                    <a href="https://forums.p-insurgence.com">
+                        <image src="assets/img/forum_icon.png" class="buttonImg">
+                    </a>
+                    <span class="caption">Forum</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <section class="for-full-back color-white" id="about">
+        <div class="container">
+
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Features</h1>
+                    <h4>
+                        <strong>
+                            Pokemon Insurgence comes with a number of features, all designed to make your experience in
+                            the Pokemon world better!
+                            Whether a casual player or a highly competitive one, Insurgence has something to offer for
+                            you!
+                        </strong>
+                    </h4>
+                </div>
+
+            </div>
+
+            <div class="row text-center space-pad">
+                <div class="col-md-3 ">
+
+                    <div class="about-div">
+                        <i class="fa fa-camera fa-4x main-color-red"></i>
+                        <h3 class="featureheader">A new region and story </h3>
+                        <img src="assets/img/torren.png" class="featureImg" />
+                        <p> <br>
+                            In the new region of Torren an exciting and engaging plot plays out. Will you be the hero
+                            the region needs, or will cults overtake everything?
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+                    <div class="about-div">
+                        <i class="fa fa-briefcase fa-4x main-color-red"></i>
+                        <h3 class="featureheader">Delta Species </h3>
+                        <img src="assets/img/delta.png" class="featureImg" />
+                        <p> <br>
+                            A new variant of Pokemon has been discovered, putting the Pokemon you know and love in a
+                            completely new context.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="about-div">
+                        <i class="fa fa-desktop fa-4x main-color-red"></i>
+                        <h3 class="featureheader">New Mega Evolutions </h3>
+                        <img src="assets/img/mega.png" class="featureImg" />
+                        <p> <br>
+                            New megastones will lead to previously unknown mega evolutions, all designed to fit in
+                            different kind of teams, gather them all!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="about-div">
+                        <i class="fa fa-folder fa-4x main-color-red"></i>
+                        <h3 class="featureheader">Online Features </h3>
+                        <img src="assets/img/trade.png" class="featureImg" />
+                        <p><br>
+                            Trade online with your friends and other people to get your perfect team, then visit your
+                            friends secret base and try to collect their flag!
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>And many more features, such as:</h2>
+                    <p>
+                    <ul class="featurelist">
+                        <li class="minorfeature">• Handcrafted <strong>Easy, Normal & Hard difficulties</strong> to fit
+                            your playstyle!</li>
+                        <li class="minorfeature">• A multitude of <strong>Challenge Modes</strong> such as
+                            <strong>Nuzlocke Mode, Solo Run, Iron Man, Randomizer, and many more</strong>!</li>
+                        <li class="minorfeature">• <strong>Customize your character</strong> with different clothes,
+                            hairstyles, hats, backpacks , etc.</li>
+                        <li class="minorfeature">• <strong>Catch all Pokemon up to 6th Generation</strong>, from Kanto
+                            pokemon to Kalos pokemon.</li>
+                        <li class="minorfeature">• <strong>Create and customize your own secret base</strong>! Create
+                            obstacles and challenges for other players to experience!</li>
+                        <li class="minorfeature">• <strong>New never-before-seen Mega Evolutions</strong> for both old
+                            and new Pokemon.</li>
+                        <li class="minorfeature">• <strong>Brand new type of Held-Item, Armors</strong> will severely
+                            boost the defenses of a Pokemon and don't require a turn to activate!</li>
+                        <li class="minorfeature">• No more need for a Pokemon with HMs learned in your party! Use
+                            <strong>HM items</strong> to use HMs without having the moves.</li>
+                        <li class="minorfeature">• An <strong>extensive endgame</strong> with many quests to complete
+                            and locations to explore.</li>
+                    </ul>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Downloads Section -->
+
+    <section class="for-full-back full-height" id="downloads">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 id="downloadheader">Downloads</h1>
+
+                </div>
+
+            </div>
+            <div class="row text-center">
+
+                <div class="col-md-12 ">
+                    <h3 id="currentversion">Current Version:</h3>
+                    <div class="col-md-6">
+                        <ul class="plan">
+                            <li class="plan-head">Windows</li>
+                            <li class="main-price">Installer</li>
+                            <li class="bottom">Downloads and installs the game for you. Heavily recommended.</li>
+                            <li class="bottom">
+                                <a href="https://p-insurgence.com/releases/1.2.7/setup.exe"
+                                    class="btn btn-default download-btn" id="installerWindows">Download</a>
+                            </li>
+                            <li class="main-price">Full Download</li>
+                            <li class="bottom">If you are having download issues using the default download, try using
+                                the Mirror.</li>
+                            <li class="bottom">
+                                <a href="https://p-insurgence.com/releases/1.2.5/Pokemon%20Insurgence%201.2.5%20Core.zip"
+                                    class="btn btn-default download-btn" id="fullDLwindows">Download</a>
+                                <a href="https://drive.google.com/file/d/0B1c9b_xo8_jtU0VvNzIxMEl4M2M/view?usp=sharing&resourcekey=0-FMKT1bwKpHPHzS_9T-5CZg"
+                                    class="btn btn-default download-btn">Mirror</a>
+                            </li>
+                            <li class="main-price patchDownloads">Patch Only</li>
+                            <li class="bottom patchDownloads">If you are having download issues using the default
+                                download, try using the Mirror.</li>
+                            <li class="bottom patchDownloads">
+                                <a id="patchDLwindows"
+                                    href="http://p-insurgence.com/releases/1.2.3/Pokemon%20Insurgence%201.2.3%20Patch.zip"
+                                    class="btn btn-default download-btn">Download</a>
+                                <a href="https://drive.google.com/file/d/0B1c9b_xo8_jtV2d5TEwwMGV0WWM/view?usp=sharing&resourcekey=0-zQfi4t4Wy5KccQhwC8gOqQ"
+                                    class="btn btn-default download-btn">Mirror</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="plan">
+                            <li class="plan-head">Mac</li>
+                            <li class="main-price">Guide:</li>
+                            <li class="bottom">
+                                <a href="https://p-insurgence.com/macos"
+                                    class="btn btn-default download-btn" id="installerWindows">Guide</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="for-full-back color-white full-height" id="community">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2" id="communitything">
+                    <h1>Community</h1>
+                    <h4>
+                        <strong>
+                            Want to get involved in the Insurgence community? Either start posting on our forums, or
+                            come chat with fans and developers on our Discord!
+                        </strong>
+                    </h4>
+                    <a href="https://discord.p-insurgence.com/"><img src="assets/img/partner.png"
+                            style="max-width: 300px" /></a>
+                    <br />
+                    <br />
+                    <a class="btn btn-default btn-lg" href="https://forums.p-insurgence.com">
+                        <img src="assets/img/forum.png" id="discordlogo" />Forums</a>
+                    <a class="btn btn-default btn-lg" id="discordbutton" href="https://discord.p-insurgence.com/">
+                        <img src="assets/img/discord.png" id="discordlogo" />Discord</a>
+                </div>
+            </div>
+            <h3><br> If you were banned from the Pokemon Insurgence Discord and want to submit an appeal, please submit
+                one here: <a href="https://forms.gle/fxyGQkngKgN1TZDy8">Ban Appeals</a> </h3>
+        </div>
+    </section>
+
+    <section class="for-full-back full-height" id="developers">
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col-md-12 col-md-offset-0" id="developerthing">
+                    <div class="or-spacer text-center">
+                        <div class="mask"></div>
+                    </div>
+                    <h1>Developers</h1>
+                    <div class="col-md-6 text-center developerbox">
+                        <img src="assets/img/twitter/rocket.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                1ofthe4rocketbros <br />
+                                Lead Developer
+                            </p>
+                            <a href="https://twitter.com/1ofthe4rocketbr" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow
+                                @1ofthe4rocketbr</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center developerbox">
+                        <img src="assets/img/twitter/deuk.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                Deukhoofd <br />
+                                Server Programmer
+                            </p>
+							<a href="https://twitter.com/Deukhoofd" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @Deukhoofd</a>
+                        </div>
+                    </div>
+                    <h1>Previous Developers & Helpers</h1>
+                    <div class="col-md-4 text-center developerbox">
+                        <img src="assets/img/twitter/suze.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                TheSuzerain <br />
+                                Previous Lead Developer
+                            </p>
+                            <a href="https://twitter.com/the_suzerain" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @the_suzerain</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <img src="assets/img/twitter/dank.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                SleepLate <br />
+                                Artist
+                            </p>
+                            <a href="https://twitter.com/_Sleeplate" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @_SleepLate</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <img src="assets/img/twitter/singer.jpg" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                MrSinger186 <br />
+                                Musician
+                            </p>
+                            <a href="https://twitter.com/mrsinger186" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @mrsinger186</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <img src="assets/img/twitter/echo.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                EchoTheThird <br />
+                                Lead Artist
+                            </p>
+                            <a href="https://twitter.com/EchoTheThird" class="twitter-follow-button"
+                            data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @EchoTheThird</a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <img src="assets/img/twitter/lunar.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                AtlusAbound <br />
+                                Artist
+                            </p>
+                            <a href="https://twitter.com/AtlusAbound" class="twitter-follow-button"
+                            data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @AtlusAbound</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <img src="assets/img/twitter/zero.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                ZeroBreaker <br />
+                                Artist
+                            </p>
+                            <a href="https://twitter.com/zerobreaker000" class="twitter-follow-button"
+                            data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @zerobreaker000</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <img src="assets/img/twitter/demon.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                Demonknight <br />
+                                Organizer/Tester
+                            </p>
+                            <a href="https://twitter.com/Demonknight1000" class="twitter-follow-button"
+                            data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @Demonknight1000</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center developerbox">
+                        <!-- ' col-md-offset-4' for a new line -->
+                        <img src="assets/img/twitter/sleepy.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                Sleepymon12 <br />
+                                Alpha Tester
+                            </p>
+                            <a href="https://twitter.com/Sleepymon12" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow @Sleepymon12</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <!-- ' col-md-offset-4' for a new line -->
+                        <img src="assets/img/twitter/fluffy.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                FluffyChikorita <br />
+                                Promo Artist
+                            </p>
+                            <a href="https://twitter.com/FluffyChikorita" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow
+                                @FluffyChikorita</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <!-- ' col-md-offset-4' for a new line -->
+                        <img src="assets/img/twitter/skurl.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                Skurleton <br />
+                                Guest Artist
+                            </p>
+                            <a href="https://twitter.com/skurlboy" class="twitter-follow-button" data-show-count="false"
+                                data-size="large" data-dnt="true" style="float:right;">Follow @skurlboy</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <!-- ' col-md-offset-4' for a new line -->
+                        <img src="assets/img/twitter/nico.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                Nico<br />
+                                Guest Artist
+                            </p>
+                            <a href="https://twitter.com/rentalrafflesia" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow
+                                @rentalrafflesia</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <!-- ' col-md-offset-4' for a new line -->
+                        <img src="assets/img/twitter/rune.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                Rune_Script <br />
+                                Guest Artist
+                            </p>
+                            <a href="https://twitter.com/Runeart13" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow
+                                @Runeart13</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center developerbox">
+                        <!-- ' col-md-offset-4' for a new line -->
+                        <img src="assets/img/twitter/selena.png" class="twitterimg" />
+                        <div style="float:right;">
+                            <p style="padding-bottom:0px;">
+                                Selena <br />
+                                Guest Artist
+                            </p>
+                            <a href="https://twitter.com/SelenaStar88" class="twitter-follow-button"
+                                data-show-count="false" data-size="large" data-dnt="true" style="float:right;">Follow
+                                @SelenaStar88</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--End Contact Section -->
+    <!--footer Section -->
+    <div class="for-full-back " id="footer">
+        2022 Deukhoofd & EchoTheThird | Free Web Navigation Icon Pack by <a
+            href="https://www.flaticon.com/authors/freepik" class="footerlink">Freepik</a> | All Rights Reserved
+    </div>
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <script src="assets/plugins/bootstrap.js"></script>
+    <script src="assets/js/site.js"></script>
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+    </div>
 </body>
+
 </html>
